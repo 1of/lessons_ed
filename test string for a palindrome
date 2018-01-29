@@ -1,0 +1,28 @@
+function palindrome(str) {
+
+  var newstr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  var sumbols = newstr.length;
+    if (sumbols%2 == 0) {   
+      var strOdd = newstr.slice(0, (newstr.length)/2);
+      var strEven = newstr.slice((newstr.length)/2, newstr.length);
+      strEven = strEven.split("").reverse().join("");
+      console.log("четные 2 части:", strOdd, strEven);
+    
+      }
+    else {
+      var strOdd = newstr.slice(0, (newstr.length)/2 + 1);
+      var strEven = newstr.slice((newstr.length)/2, newstr.length);
+      strEven = strEven.split("").reverse().join("");
+      console.log("нечетные 2 части", strOdd, strEven);
+      
+    }
+   if (strOdd===strEven) 
+       {         
+         return true;
+       }
+  else {
+         return false; 
+  }     
+}
+
+palindrome("BAR j  -jRAB");
