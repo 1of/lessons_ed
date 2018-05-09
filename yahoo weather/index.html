@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>nativejs + ajax</title>
+</head>
+<body>
+<header><h1>Yahoo weather API</h1></header>
+	<form>	
+	<label for="country">Country</label>
+		<select  id="country" onchange="addCity(this.value)">
+		<option disabled>Выберите страну</option>
+	    <option value="Чебурашка">Украина</option>
+		</select>
+	<label for="city">City</label>
+		<select id="city" onchange="showWeather(this.value)">
+		<option value="Выберите город">Выберите город</option>
+	    <option value="Kharkiv">Харьков</option>
+		</select>
+	</form>
+	<div id="forecast"></div>
+	<script src="index.js"></script>
+</body>
+</html>
