@@ -1,0 +1,36 @@
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* apple videos */
+#video-content {
+  text-align: center; }
+
+/* google books */
+#selected-book img {
+  float: left;
+  margin-right: 150px; }
+
+#myCarousel {
+	padding: 5px 7% 5px 7%;
+}
+.list-group span:hover{
+	background: lightgray;
+}
+.description h2 {
+	box-shadow: 0 2px 20px red;
+}
+.description span {
+	margin: 15px 15px 15px 0; 
+	color: red;
+}
+.description a {
+	text-decoration: none;
+	border: 1px solid gray;
+	border-radius: 10%;
+	padding: 5px;
+	background-color: lightblue;
+}
+.shadow {
+	border: 20px solid gray;
+}
