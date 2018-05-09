@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans/OpenSans-Regular.eot');
+	src: url('../fonts/OpenSans/OpenSans-Regular.eot') format('embedded-opentype'),
+	url('../fonts/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+	url('../fonts/OpenSans/OpenSans-Regular.woff') format('woff'),
+	url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype'),
+	url('../fonts/OpenSans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+}
+@font-face {
+	font-family: 'Domine';
+	src: url('../fonts/Domine/Domine-Regular.eot');
+	src: url('../fonts/OpenSans/Domine-Regular.eot') format('embedded-opentype'),
+	url('../fonts/OpenSans/Domine-Regular.woff2') format('woff2'),
+	url('../fonts/OpenSans/Domine-Regular.woff') format('woff'),
+	url('../fonts/OpenSans/Domine-Regular.ttf') format('truetype'),
+	url('../fonts/OpenSans/Domine-Regular.svg#OpenSans') format('svg');
+}
