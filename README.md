@@ -10,6 +10,6 @@ http://react.silifonov.fe.a-level.com.ua  <br>
 Public Promice interactive service (AngularJS)
 https://github.com/1of/pps  <br>
 single markup wit add comments (ReactJS)
-https://github.com/1of/commentsReact <br>
+https://1of.github.io/commentsReact/ <br>
 Also see my repo from ITschool - 
 http://gitlab.a-level.com.ua/silifonov 
