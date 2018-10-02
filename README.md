@@ -5,8 +5,10 @@ markup1 (HTML5, CSS3, jQuery)
 http://markup.silifonov.fe.a-level.com.ua <br>
 markup2 (HTML5, CSS3, jQuery, Bootstrap)  
 http://fapor.silifonov.fe.a-level.com.ua  <br>
-markup(localstorage) (HTML5, CSS3, jQuery)
+markup3 (HTML5, CSS3, jQuery)
 https://1of.github.io/filmoteka/ <br>
+markup4
+https://1of.github.io/tradelike/ <br>
 utilities service (rent) (ReactJS)
 http://react.silifonov.fe.a-level.com.ua  <br> 
 Public Promice interactive service (AngularJS)
